@@ -1,4 +1,4 @@
-# heonsoo park's first webstie
+# heonsoo park's first website
 
 this is a website created using github page, it currently only has a html file in it but hopefully it'll become an actually website in the near future
 
