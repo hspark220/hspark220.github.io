@@ -1,0 +1,144 @@
+/* Fonts */
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("../fonts/libre-baskerville/LibreBaskerville-Regular.ttf"),
+    url("../fonts/libre-baskerville/LibreBaskerville-Bold.ttf"),
+    url("../fonts/libre-baskerville/LibreBaskerville-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../fonts/nunito/Nunito-Regular.ttf"),
+    url("../fonts/nunito/Nunito-Bold.ttf"),
+    url("../fonts/nunito/Nunito-Italic.ttf");
+}
+
+/* Basic outline */
+html {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+h1 {
+  font-family: "Libre Baskerville";
+  font-size: 36px;
+}
+
+h2 {
+  font-family: "Nunito";
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  border: solid 2px black;
+  margin: 15px auto;
+  padding: 15px;
+  width: 800px;
+}
+
+/* font styling */
+.libre-baskerville {
+  font-family: "Libre Baskerville", serif;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.italic {
+  font-weight: italic;
+}
+
+/* buttons */
+.flat-button {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 200px;
+  text-align: center;
+}
+
+.flat-button:hover {
+  cursor: pointer;
+}
+
+.flat-button:active {
+  background-color: grey;
+  color: white;
+}
+
+.skeuomorphism-button {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 2px;
+}
+
+.skeuomorphism-button:hover {
+  cursor: pointer;
+}
+
+.skeuomorphism-button:active {
+  background-color: grey;
+  color: white;
+}
+
+/* colors */
+
+.colors p {
+  padding: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.yellowish,
+.light-yellowish,
+.dark-blueish,
+.beigeish {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
+
+.yellowish {
+  background-color: rgb(240, 206, 117);
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.light-yellowish {
+  background-color: rgb(246, 224, 184);
+  margin-right: 50px;
+}
+
+.dark-blueish {
+  background-color: rgb(40, 51, 62);
+  margin-right: 50px;
+  color: white;
+}
+
+.beigeish {
+  background-color: rgb(200, 182, 132);
+}
