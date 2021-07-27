@@ -1,3 +1,4 @@
+/* font importing */
 @font-face {
   font-family: "Libre Baskerville";
   src: url("../fonts/libre-baskerville/LibreBaskerville-Regular.ttf"),
@@ -12,13 +13,91 @@
     url("../fonts/nunito/Nunito-Italic.ttf");
 }
 
+/* basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1 {
-  font-family: "Libre Baskerville";
+  font-family: "Libre Baskerville", serif;
   font-size: 36px;
 }
 
 h2 {
-  font-family: "Nunito";
+  font-family: "Nunito" ,sans-serif;
   font-size: 26px;
   font-weight: bold;
+}
+
+p {
+  font-family: "Nunito" ,sans-serif;
+}
+
+/* main sections */
+header {
+  text-align: center;
+  font-weight: bold;
+  margin: 1%;
+}
+
+header h1 {
+  font-size: 70px;
+}
+
+/* navigation bar */
+nav {
+  text-align: center;
+  border: 1px solid black;
+}
+
+nav h2 {
+  width: auto;
+  display: inline-block;
+  margin: auto 100px;
+  text-align: center;
+}
+
+/* about me */
+.about-me {
+  text-align: center;
+  width: 75%;
+  border: 1px solid black;
+  margin: 40px auto;
+  padding: 40px;
+  display: none;
+}
+
+.about-me h2,
+.about-me p {
+  text-align: left;
+}
+
+/* style guide */
+.style-guide {
+  text-align: center;
+  width: 75%;
+  border: 1px solid black;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.style-guide h2,
+.style-guide p {
+  text-align: left;
+}
+
+/* projects */
+.projects {
+  text-align: center;
+  width: 75%;
+  border: 1px solid black;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+.projects h2,
+.projects p {
+  text-align: left
 }
