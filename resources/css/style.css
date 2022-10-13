@@ -23,42 +23,25 @@
 h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 36px;
-  color: solid whitesmoke;
 }
 
 h2 {
   font-family: "Nunito" ,sans-serif;
   font-size: 26px;
   font-weight: bold;
-  color: solid white;
 }
 
 p {
   font-family: "Nunito" ,sans-serif;
-  color: solid whitesmoke;
 }
 
 a {
-  color: solid whitesmoke;
-}
-
-/* main sections */
-header {
-  text-align: center;
-  font-weight: bold;
-  margin: 1%;
-  color: whitesmoke;
-}
-
-header h1 {
-  font-size: 70px;
 }
 
 /* navigation bar */
 nav {
   text-align: center;
-  border: 1px solid whitesmoke;
-  color: whitesmoke;
+  border: 1px solid black;
 }
 
 nav h2 {
@@ -68,15 +51,26 @@ nav h2 {
   text-align: center;
 }
 
+/* main sections */
+header {
+  text-align: center;
+  font-weight: bold;
+  margin: 1%;
+}
+
+header h1 {
+  font-size: 70px;
+}
+
+
 /* about me */
 .about-me {
   text-align: center;
   width: 75%;
-  border: 1px solid whitesmoke;
+  border: 1px solid black;
   margin: 40px auto;
   padding: 40px;
   display: none;
-  color: whitesmoke;
 }
 
 .about-me h2,
@@ -88,10 +82,9 @@ nav h2 {
 .style-guide {
   text-align: center;
   width: 75%;
-  border: 1px solid whitesmoke;
+  border: 1px solid black;
   margin: 40px auto;
   padding: 40px;
-  color: whitesmoke;
 }
 
 .style-guide h2,
@@ -100,17 +93,16 @@ nav h2 {
 }
 
 .style-guide a {
-  color: solid whitesmoke;
+
 }
 
 /* projects */
 .projects {
   text-align: center;
   width: 75%;
-  border: 1px solid whitesmoke;
+  border: 1px solid black;
   margin: 40px auto;
   padding: 40px;
-  color: whitesmoke;
 }
 
 .projects h2,
