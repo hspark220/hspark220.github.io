@@ -50,6 +50,9 @@ table {
   border-spacing: 0;
 }
 
+/*
+================================================================================ 
+ */
 /* font importing */
 @font-face {
   font-family: "Libre Baskerville";
@@ -66,6 +69,7 @@ table {
 }
 
 
+/* 
 h1 {
   font-family: "Libre Baskerville", serif;
   font-size: 36px;
@@ -76,82 +80,69 @@ h2 {
   font-size: 26px;
   font-weight: bold;
 }
+*/
 
-p {
-  font-family: "Nunito" ,sans-serif;
+/*
+=========================
+Grid
+=========================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-a {
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
 }
 
-/* navigation bar */
-nav {
-  text-align: center;
-  border: 1px solid black;
-}
+/*
+=========================
+Typography
+=========================
+ */
+ h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+ }
 
-nav h2 {
-  width: auto;
-  display: inline-block;
-  margin: auto 100px;
-  text-align: center;
-}
-
-/* main sections */
+/* 
+  header style?
+*/
 header {
-  text-align: center;
-  font-weight: bold;
-  margin: 1%;
+  display: block;
 }
 
-header h1 {
-  font-size: 70px;
+/* 
+=========================
+Clearfix
+=========================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
 }
 
-
-/* about me */
-.about-me {
-  text-align: center;
-  width: 75%;
-  border: 1px solid black;
-  margin: 40px auto;
-  padding: 40px;
-  display: none;
-}
-
-.about-me h2,
-.about-me p {
-  text-align: left;
-}
-
-/* style guide */
-.style-guide {
-  text-align: center;
-  width: 75%;
-  border: 1px solid black;
-  margin: 40px auto;
-  padding: 40px;
-}
-
-.style-guide h2,
-.style-guide p {
-  text-align: left;
-}
-
-.style-guide a {
-
-}
-
-/* projects */
-.projects {
-  text-align: center;
-  width: 75%;
-  border: 1px solid black;
-  margin: 40px auto;
-  padding: 40px;
-}
-
-.projects h2,
-.projects p {
-  text-align: left
-}
+/* 
+===========================
+Primary header
+===========================
+ */
+ .logo{
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
+  float: left;
+ }
