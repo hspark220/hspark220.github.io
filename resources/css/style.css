@@ -103,7 +103,7 @@ Grid
 }
 
 .container {
-  width: 960px;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -113,13 +113,30 @@ Typography
 =========================
  */
 
-
-/* 
-  header style?
-*/
-header {
-  display: inline-block;
+h1 {
+  font-size: 48px;
+  font-family: "Libre Baskerville", serif;
 }
+
+h2 {
+  font-size: 36px;
+  font-family: "Libre Baskerville", serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Nunito" ,sans-serif;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: "Nunito" ,sans-serif;
+}
+
+p, a {
+  font-family: "Nunito" ,sans-serif;
+}
+
 
 /* 
 =========================
@@ -144,3 +161,56 @@ Clearfix
 Primary header
 ===========================
  */
+.primary-header {
+  width: 80%;
+  margin: 0 9%;
+}
+
+.logo {
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+
+.nav {
+  float: right;
+  width: 75%;
+  text-align: right;
+}
+
+/* 
+===========================
+Intro
+===========================
+*/
+.intro {
+  text-align: left;
+}
+
+/* 
+===========================
+About Me
+===========================
+*/
+.about-me {
+  text-align: left;
+}
+
+/* 
+===========================
+Projects
+===========================
+*/
+.projects {
+  text-align: left;
+}
+
+/* 
+===========================
+Primary Footer
+===========================
+*/
+.primary-footer {
+  width: 80%;
+  margin: 0 9%;
+}
