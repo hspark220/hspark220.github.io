@@ -113,29 +113,34 @@ Typography
 =========================
  */
 
-h1 {
+body {
+  font-family: "Nunito" ,sans-serif;
+}
+
+ h1 {
   font-size: 48px;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
 }
 
 h2 {
   font-size: 36px;
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
 }
 
 h3 {
   font-size: 24px;
-  font-family: "Nunito" ,sans-serif;
+  /* font-family: "Nunito" ,sans-serif; */
 }
 
 h4 {
   font-size: 18px;
-  font-family: "Nunito" ,sans-serif;
-}
+  /* font-family: "Nunito" ,sans-serif;*/
+} 
 
-p, a {
-  font-family: "Nunito" ,sans-serif;
-}
+/* p, a {
+   font-family: "Nunito" ,sans-serif; 
+}  */
+
 
 
 /* 
@@ -157,60 +162,78 @@ Clearfix
 }
 
 /* 
-===========================
-Primary header
-===========================
- */
-.primary-header {
-  width: 80%;
-  margin: 0 9%;
-}
-
-.logo {
-  float: left;
-  width: 25%;
-  text-align: left;
-}
-
-.nav {
-  float: right;
-  width: 75%;
-  text-align: right;
-}
-
-/* 
-===========================
-Intro
-===========================
+=========================
+Layout and positions
+=========================
 */
-.intro {
-  text-align: left;
+
+/* header section */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 4%;
 }
 
-/* 
-===========================
-About Me
-===========================
-*/
+.header-nav-bar{
+  display: flex;
+  gap: 16px;
+}
+
+/* hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+/* welcome message */
+.welcome-message {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 20%;
+}
+
+.welcome-message-text {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+}
+
+.welcome-message-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  border: solid;
+}
+
+/* about me */
 .about-me {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20%;
+  align-items: flex-start;
 }
 
-/* 
-===========================
-Projects
-===========================
-*/
+/* projects */
 .projects {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 20%;
+  align-items: flex-start;
 }
 
-/* 
-===========================
-Primary Footer
-===========================
-*/
-.primary-footer {
-  width: 80%;
-  margin: 0 9%;
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 4%;
+}
+
+.footer-nav-bar {
+  display: flex;
+  gap: 16px;
 }
