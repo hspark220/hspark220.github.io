@@ -50,9 +50,11 @@ header .nav li {
 
 /* hero */
 .hero .about-me, .hero .projects {
-  border: solid;
+  
   margin: 20px;
   padding: 16px;
+  border: solid;
+  width: 500px;
 } 
 .hero h2 {
   font-size: 2rem;
@@ -65,7 +67,7 @@ header .nav li {
   flex-direction: column;
   flex-wrap: wrap;
 
-  width: 500px;
+  
 }
 .about-me p {
   margin-top: 10px;
@@ -81,11 +83,23 @@ header .nav li {
 .projects .odin {
   display: flex;
   gap: 16px;
+
+  margin: 5px 0;
+  padding: 20px;
+  border: 1px solid;
 }
 .projects > .odin div{
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: solid;
+}
+.projects .personal{
+  display: flex;
+  gap: 16px;
+
+  margin: 5px 0;
+  padding: 20px;
+  border: 1px solid;
 }
 
 
