@@ -89,10 +89,4 @@ body {
 /* 
 Color
 */
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-}
-.logo, .nav, .heading {
-  background-color: var(--div1);;
-}
+
