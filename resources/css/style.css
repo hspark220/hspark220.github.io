@@ -11,6 +11,15 @@
 /* font importing */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
+:root {
+  --background-color: #fbc40e;
+  --text-color: #f8f6f6;
+  --div1: #343F71;
+  --div2: #e9d8e4;
+  --div3: f34c19;
+
+}
+
 * {
   padding:0;
   margin: 0;
@@ -18,157 +27,3 @@
   font-family:  Roboto ,sans-serif;
 }
 
-a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-  color: black;
-}
-
-/* 
-=========================
-Stying for each section
-=========================
-*/
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  background-color: rgb(244, 242, 236);
-}
-
-/* header */
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px 0 0 0;
-}
-header .circle {
-  width: 200px;
-  height: 200px;
-
-  border: solid;
-  border-radius: 50%;
-  padding: 40px;
-
-  text-align: right;
-  font-weight: bold;
-
-  background-color: rgb(252, 218, 137);
-  border-color:rgb(252, 218, 137);
-}
-header .nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  margin: 50px;
-  padding: 20px;
-
-  background-color:rgb(252, 218, 137);
-}
-header .nav li {
-  list-style-type: none;  
-}
-
-/* hero */
-.hero .about-me, .hero .projects {
-  
-  margin: 20px;
-  padding: 16px;
-  border: rgb(252, 218, 137) solid;
-  width: 500px;
-} 
-.hero h2 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-/* about me  */
-.about-me {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-
-  background-color: rgb(252, 218, 137);
-}
-.about-me p {
-  margin-top: 10px;
-
-  font-size: 1.4rem;
-  line-height: 2rem;
-}
-
-/* projects */
-.projects {
-  display: flex;
-  flex-direction: column;
-
-  background-color: rgb(252, 218, 137);
-}
-.projects .odin {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-
-  margin: 5px 0 30px 0;
-  padding: 0;
-
-}
-.projects > .odin div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100px;
-  height: 100px;
-  border: 1px solid;
-  border-radius: 50%;
-}
-/* .projects > .odin div:hover {
-  background-color: rgb(244, 242, 236);
-} */
-.projects > .odin img {
-  width: 70%;
-  height: auto;
-}
-.projects > .odin .calculator {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* temporary */
-.odin p {
-  padding: 40px 0;
-
-  text-align: center;
-  font-size: 0.8rem;
-}
-
-.projects .personal{
-  display: flex;
-  gap: 16px;
-
-  margin: 5px 0;
-  padding: 20px;
-  border: 1px solid;
-}
-
-
-/* footer */
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 20px;
-
-  background-color: rgb(252, 218, 137);
-}
-.footer-nav-bar {
-  display: flex;
-  gap: 16px;
-}
-.footer-nav-bar li {
-  list-style-type: none;  
-}
