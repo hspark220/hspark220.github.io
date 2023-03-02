@@ -1,0 +1,31 @@
+{
+  "name": "hspark220.github.io",
+  "version": "1.0.0",
+  "description": "this is a website created using github page, it currently only has a html file in it but hopefully it'll become an actually website in the near future",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hspark220/hspark220.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hspark220/hspark220.github.io/issues"
+  },
+  "homepage": "https://github.com/hspark220/hspark220.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
