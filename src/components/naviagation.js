@@ -1,9 +1,18 @@
+import Tab from './Tab.js';
+
 const Navigation = () => {
 
     
     return (
-        <div>
-            navigation
+        <div className="navigation">
+            <div className='logo'>
+                Logo
+            </div>
+            <div className='tabs'>
+                <Tab sectionName="about" tabName="About Me"/>
+                <Tab sectionName="projects" tabName="Projects"/>
+                <Tab sectionName="contact" tabName="Contact"/>
+            </div>
         </div>
     )
 }
