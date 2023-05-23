@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <div className='logo'>
-                Logo
+                heonsoo
             </div>
             <div className='tabs'>
                 <Tab sectionName="about" tabName="About Me"/>
