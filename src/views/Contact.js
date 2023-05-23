@@ -4,7 +4,8 @@ const Contact = () => {
     return (
         <div className="contact">
             contact
-            <br></br>
+            <p>email: hspark220@gmail.com </p>
+            {/* icons */}
             <SocialIcon url="https://github.com/hspark220" />
         </div>
     )

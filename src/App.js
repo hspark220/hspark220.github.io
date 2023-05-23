@@ -7,9 +7,12 @@ const App = () => {
   return (
     <>
       <Navigation />
-      <About />
-      <Projects />
-      <Contact />
+      <div className="main">
+        <About />
+        <Projects />
+        <Contact />
+      </div>
+      
     </>
   )
 }
