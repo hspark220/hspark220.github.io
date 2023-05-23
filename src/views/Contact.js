@@ -2,7 +2,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             contact
             <p>email: hspark220@gmail.com </p>
             {/* icons */}
