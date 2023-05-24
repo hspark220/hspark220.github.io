@@ -1,7 +1,4 @@
 import Navigation from "./components/Naviagation";
-import About from "./views/About";
-import Projects from "./views/Projects";
-import Contact from "./views/Contact";
 import { SocialIcon } from 'react-social-icons';
 
 const App = () => {
@@ -10,10 +7,10 @@ const App = () => {
       <Navigation />
       <div className="main">
         <div className="header">
-
+          learning to code, trying to make a protfolio website...
         </div>
         <div className="projects">
-
+        
         </div>
         <div className="footer" id="contact">
             contact
