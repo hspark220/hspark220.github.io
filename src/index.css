@@ -46,9 +46,3 @@ a {
   align-items: center;
   gap: 2rem;
 }
-
-.about-me {
-  width: 800px;
-  height: 400px;
-  border: solid 1px;
-}
