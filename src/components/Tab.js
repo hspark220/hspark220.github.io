@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Tab = ({sectionName, tabName}) => {
 
     return (
         <div className="tab">
-            <a href={"#"+sectionName}>{tabName}</a>
+           <Link to={"/" + sectionName}>{tabName}</Link>
         </div>
     )
 }
