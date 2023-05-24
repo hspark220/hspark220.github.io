@@ -1,4 +1,4 @@
-import Navigation from "./components/naviagation";
+import Navigation from "./components/Naviagation";
 import About from "./views/About";
 import Projects from "./views/Projects";
 import Contact from "./views/Contact";
@@ -10,6 +10,7 @@ const App = () => {
       <Navigation />
       <div className="main">
         <div className="header">
+
         </div>
         <div className="projects">
 
